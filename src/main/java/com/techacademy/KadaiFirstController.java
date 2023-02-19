@@ -23,7 +23,7 @@ public class KadaiFirstController {
         return  val1 + val2;
 
     }
-    @GetMapping("/minus/{val1}/{valm2}")
+    @GetMapping("/minus/{val1}/{val2}")
     public int calcMinus(@PathVariable int val1, @PathVariable int val2) {
         return val1 - val2;
     }
